@@ -1,0 +1,89 @@
+.offside > h1 {
+  font-size: 80px;
+  width: 400px;
+  line-height: 80px;
+  color: black;
+  font-family: poppins;
+}
+.offside > h2 {
+  font-size: 80px;
+  width: 400px;
+  line-height: 80px;
+  margin-top: -30px;
+  color: #ef0303;
+  font-family: poppins;
+}
+
+@media only screen and (max-width: 600px) {
+  .texting {
+    margin-top: -150px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .small {
+    display: none;
+  }
+}
+
+.texting > p {
+  width: 500px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .texting > p {
+    margin-top: px;
+    width: 400px;
+    margin-right: 20px;
+    margin-top: 130px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .moving {
+    margin-left: -500px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .bringing {
+    margin-top: 100px;
+    margin-right: 130px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .codelab {
+    margin-top: 40px;
+    margin-left: -30px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .capture > img {
+    margin-top: 500px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .bringing1 {
+    margin-top: -610px;
+    margin-right: 143px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .codelab1 {
+    margin-top: -410px;
+    margin-right: 74px;
+  }
+}
+
+.image_holder1 {
+  overflow: hidden;
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .image_holder1 {
+  }
+}
+.image_holder1 > img {
+  height: 100px;
+  padding: 15px;
+}

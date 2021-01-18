@@ -1,0 +1,138 @@
+.second_container {
+  height: 2000px;
+  width: 100vw;
+  display: flex;
+  font-family: Poppins;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 1100px;
+  background: #111855;
+}
+
+.second_body {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  margin: 100px;
+  height: 100%;
+  width: 100%;
+}
+
+.hundred1 > h1 {
+  width: 400px;
+  font-family: poppins;
+  font-size: 100px;
+  line-height: 90px;
+  color: white;
+  margin-top: -30px;
+}
+
+.hundred1 > h2 {
+  width: 400px;
+  font-family: poppins;
+  font-size: 100px;
+  line-height: 90px;
+  margin-top: -50px;
+  color: #e59922;
+}
+
+@media only screen and (max-width: 600px) {
+  .hundred1 > h1 {
+    font-size: 35px;
+    margin-left: -20px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .hundred1 > h2 {
+    font-size: 35px;
+    margin-left: 200px;
+    margin-top: -112px;
+  }
+}
+
+.text1 {
+  display: flex;
+  justify-content: flex-end;
+
+  width: 500px;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  .text1 {
+    margin-top: -330px;
+    font-size: 12px;
+    margin-left: 200px;
+    width: 50px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .peter {
+    margin-top: 30px;
+    font-size: 60px;
+
+    margin-left: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+}
+
+.text2 {
+  display: flex;
+  justify-content: flex-end;
+
+  width: 500px;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  margin-top: -500px;
+  margin-left: 70px;
+}
+
+@media only screen and (max-width: 600px) {
+  .text2 {
+    margin-top: -300px;
+    font-size: 12px;
+    width: 400px;
+  }
+}
+.text3 {
+  display: flex;
+  justify-content: flex-end;
+
+  width: 500px;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  margin-top: -500px;
+  margin-left: 650px;
+}
+
+.imaging {
+  height: 200px;
+  width: 350px;
+
+  margin-top: -900px;
+  margin-left: 200px;
+  display: flex;
+
+  flex-wrap: wrap;
+}
+
+.imaging > img {
+  display: flex;
+
+  height: 40px;
+  padding: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  .self > img {
+    display: none;
+  }
+}

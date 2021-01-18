@@ -1,0 +1,96 @@
+@media only screen and (max-width: 600px) {
+  .general {
+    margin-top: 900px;
+  }
+}
+
+.offside1 > h1 {
+  font-size: 80px;
+  width: 500px;
+  line-height: 80px;
+  color: white;
+  font-family: poppins;
+}
+.offside1 > h2 {
+  font-size: 80px;
+  width: 400px;
+  line-height: 80px;
+  margin-top: -30px;
+  color: #ef0303;
+  font-family: poppins;
+}
+
+/* @media only screen and (max-width: 600px) {
+  .texting {
+    margin-top: -150px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .small {
+    display: none;
+  }
+} */
+
+.texting1 > p {
+  width: 500px;
+}
+.texting2 > p {
+  width: 500px;
+}
+
+/* @media only screen and (max-width: 600px) {
+  .texting > p {
+    margin-top: px;
+    width: 400px;
+    margin-right: 20px;
+    margin-top: 130px;
+  }
+} */
+
+@media only screen and (max-width: 600px) {
+  .offside1 > h1 {
+    font-size: 37px;
+    margin-left: 180px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .offside1 > h2 {
+    font-size: 37px;
+    margin-left: 410px;
+    margin-top: -95px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .taking {
+    width: 200px;
+    margin-left: -20px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .texting1 > p {
+    width: 430px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .church {
+    width: 430px;
+    margin-top: 80px;
+    margin-left: -120px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .texting2 > p {
+    width: 430px;
+    margin-top: px;
+    margin-left: -120px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .solving {
+    display: none;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .stuff {
+  }
+}

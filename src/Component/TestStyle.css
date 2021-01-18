@@ -1,0 +1,114 @@
+.TestMain_Container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.TestMain_ContainerWrapper {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.TestMain_ContainerHolder {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.TestMain_Header_Link {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 120px;
+    align-items: center;
+}
+
+@media (max-width: 768px){
+    .TestMain_Header_Link {
+        display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    }
+}
+
+.TestMain_Header {
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 50px;
+}
+
+.TestMain_Link {
+    margin: 40px;
+    width: 150px;
+
+}
+
+.TestMain_BodyHolder {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.TestMain_ImageHolder {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    background: chartreuse;
+    height: 300px;
+    align-items: center;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+@media (max-width: 768px){
+    .TestMain_ImageHolder {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        background: chartreuse;
+        height: 300px;
+        align-items: center;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+.TestMain_TestimonyHolder {
+    height: 150px;
+    width: 50%;
+    background: aqua;
+}
+
+@media (max-width: 768px){
+    .TestMain_TestimonyHolder {
+        display: flex;
+        width: 80%;
+        height: 150px;
+    }
+}
+
+.TestMain_NameHolder {
+    height: 25px;
+    width: 50%;
+    background: blue;
+    margin-bottom: 20px;
+    font-weight: bold;  
+}
+
+@media (max-width: 768px){
+    .TestMain_NameHolder {
+        height: 25px;
+        width: 80%;
+        background: blue;
+        margin-bottom: 20px;
+        font-weight: bold; 
+    }
+}
